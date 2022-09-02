@@ -1,0 +1,23 @@
+<html>
+<head> 
+    <style>
+           table,th{
+        border-collapse: darkblue;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+    </style>
+   
+    
+<script style=""> 
+
+document.write( "<table border=5px> <tr> <th>Number</th> <th>Square</th> <th>Cube</th> </tr>" ) 
+for(var n=0; n<=100; n++) 
+{ 
+document.write( "<tr><td>" + n + "</td><td>" + n*n + "</td><td>" + n*n*n + "</td></tr>" ) 
+} 
+document.write( "</table>" ) 
+</script> 
+</head> 
+</html>
